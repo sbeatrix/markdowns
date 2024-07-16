@@ -9,7 +9,7 @@
 | APCCdc20 formation rate                           | kassAC     | 0.02 (mol. x min)<sup>-1</sup> | in the same range of APC/C-Ubch10 assoc rate [[4]](#chang_molecular_2014) |
 | APCCdc20 dissociation rate                        | kDAC       | 28 mol.                | kDAC = kdissmc/kassmc [[3]](#faesen_basis_2017)   |
 | ACMC formation rate                               | kassACMC   | 0.2 (mol. x min)<sup>-1</sup> | fitted to have ACMC 12 nM |
-| ACMC dissociation rate                            | kDACMC     | 1.5 mol.                  | = = kdissacmc/kassacmc                |
+| ACMC dissociation rate                            | kDACMC     | 1.5 mol.                  | kDACMC = kdissacmc/kassacmc                |
 | Background degradation rate for Cdc20, MC, AC, ACMC| kdegBG     | 0.02 min<sup>-1</sup>    | fitted to be ~10x smaller than main degradation           |
 | Activation rate of M                               | kact       | 0.001 min<sup>-1</sup>  | -                                                         |
 | Inactivation rate of M                             | kinact     | 0.05 (mol. x min)<sup>-1</sup> | -                                                         |
@@ -17,8 +17,8 @@
 | Cyclin B degradation rate                         | kdeg_cy    | 0.0025 (mol. x min)<sup>-1</sup> | fitted to have the degradation dynamics of Palframan |
 | Cyclin B background degradation rate               | kdegbg_cy  | 0.01 min<sup>-1</sup>   | fitted to be ~10x smaller than main degradation           |
 | Kinetochore attachment rate                   | knUK_att   | 0.01 min<sup>-1</sup>    | fitted to simulate drug washout time interval             |
-| Saturation function for nUK signal                             | k_nuk      | 130                       | from [[6]](#joglekar)                           |
-| Saturation function for nUK signal                             | J1         | 0.5                      | from [[6]](#joglekar)                           |
+| Saturation function for nUK signal                             | k_nuk      | 130                       | from Joglekar[[6]](#joglekar)                           |
+| Saturation function for nUK signal                             | J1         | 0.5                      | from Joglekar [[6]](#joglekar)                           |
 | M activation and inactivation: MM constant    | J          | 0.04                     | -                                                         |
 
 ## References
