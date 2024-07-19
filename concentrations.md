@@ -2,13 +2,13 @@
 
 | Species                      | Name in model | Concentration (nM) | Concentration (mol./cell) | Reference                                                                             |
 |------------------------------|---------------|---------------------|---------------------------|---------------------------------------------------------------------------------------|
-| free Cdc20                   | C             | 10                  | 25                        | C=Ctot-AC-MC-ACMCx2                                                                    |
-| free APC                     | A             | 32                  | 80                        | FCCS experiments (unpublished)                                                         |
-| APC/CCdc20                   | AC            | 11.2                | 28                        | AC=Atot-A-ACMC                                                                         |
-| Mad comp. (active)           | Mstar         | 42.4                | 106                       | Mstar=Mtot-MC-ACMC-M                                                                   |
+| free Cdc20                   | C             | 16.4                  | 41                        | C=Ctot-AC-MC-ACMCx2                                                                    |
+| free APC                     | A             | 30.8                  | 77                        | FCCS experiments (unpublished)                                                         |
+| APC/CCdc20                   | AC            | 16.4                | 41                        | AC=Atot-A-ACMC                                                                         |
+| Mad comp. (active)           | Mstar         | 55.2               | 138                       | Mstar=Mtot-MC-ACMC-M                                                                   |
 | Mad comp. (inactive)         | M             | 0                   | 0                         | 0 during an arrest                                                                     |
-| Cyclin B                     | CycB          | 172                 | 430                       | mass spectrophtometry data [[1]](#matafora_2017)                                        |
-| Checkpoint core complex      | MC            | 15.2                | 38                        | FCCS experiments (unpublished)                                                         |
+| X (Mps1)                     | CycB          | 16                 | 40                       | ?                                        |
+| Checkpoint core complex      | MC            | 2                | 5                        | FCCS experiments (unpublished)                                                         |
 | APC:MCC                      | ACMC          | 12                  | 30                        | FCCS experiments (unpublished)                                                         |
 | APC total                    | Atot          | 60                  | 150                       | FCCS experiments (unpublished)                                                         |
 | Mad total                    | Mtot          | 70                  | 175                       | from Cdc23 concentration in [[2]](#currbio) which is a subunit of APC/C          |
