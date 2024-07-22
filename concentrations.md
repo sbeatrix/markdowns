@@ -7,7 +7,7 @@
 | APC/CCdc20                   | AC            | 16.4                | 41                        | AC=Atot-A-ACMC                                                                         |
 | Mad comp. (active)           | Mstar         | 55.2               | 138                       | Mstar=Mtot-MC-ACMC-M                                                                   |
 | Mad comp. (inactive)         | M             | 0                   | 0                         | 0 during an arrest                                                                     |
-| X (Mps1)                     | CycB          | 16                 | 40                       | ?                                        |
+| X (Mps1)                     | X          | 16                 | 40                       | ?                                        |
 | Checkpoint core complex      | MC            | 2                | 5                        | FCCS experiments (unpublished)                                                         |
 | APC:MCC                      | ACMC          | 12                  | 30                        | FCCS experiments (unpublished)                                                         |
 | APC total                    | Atot          | 60                  | 150                       | FCCS experiments (unpublished)                                                         |
