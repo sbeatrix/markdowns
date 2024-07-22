@@ -2,24 +2,24 @@
 
 | Description                                   | Parameter  | Value                    | Reference                                                 |
 |-----------------------------------------------|------------|--------------------------|-----------------------------------------------------------|
-| Cdc20 degradation rate                            | kdeg       | 1 min<sup>-1</sup>       | based on Cdc20 degradation kinetics [[1]](#currbio) |
-| Cdc20 synthesis rate                              | ksyn_c20   | 37 min<sup>-1</sup>      | fitted to have total Cdc20 60 nM in wild-type cells       |
+| Cdc20 degradation rate                            | kdeg       | 1.084 min<sup>-1</sup>       | based on Cdc20 degradation kinetics [[1]](#currbio) |
+| Cdc20 synthesis rate                              | ksyn_c20   | 37.142 min<sup>-1</sup>      | fitted to have total Cdc20 60 nM in wild-type cells       |
 | MCC formation rate                                | kassMC     | 0.006 (mol. x min)<sup>-1</sup> |  fitted to have free MC 2 nM |
 | MCC dissociation rate                             | kDMC       | 73 mol.                | kDMC = kdissmc/kassmc [[3]](#faesen_basis_2017)   |
-| APCCdc20 formation rate                           | kassAC     | 0.02 (mol. x min)<sup>-1</sup> | in the same range of APC/C-Ubch10 assoc rate [[4]](#chang_molecular_2014) |
+| APCCdc20 formation rate                           | kassAC     | 0.017 (mol. x min)<sup>-1</sup> | in the same range of APC/C-Ubch10 assoc rate [[4]](#chang_molecular_2014) |
 | APCCdc20 dissociation rate                        | kDAC       | 28 mol.                | kDAC = kdissmc/kassmc [[3]](#faesen_basis_2017)   |
-| ACMC formation rate                               | kassACMC   | 0.2 (mol. x min)<sup>-1</sup> | fitted to have ACMC 12 nM |
+| ACMC formation rate                               | kassACMC   | 0.203 (mol. x min)<sup>-1</sup> | fitted to have ACMC 12 nM |
 | ACMC dissociation rate                            | kDACMC     | 1.5 mol.                  | kDACMC = kdissacmc/kassacmc                |
-| Background degradation rate for Cdc20, MC, AC, ACMC| kdegBG     | 0.02 min<sup>-1</sup>    | fitted to be ~10x smaller than main degradation           |
+| Background degradation rate for Cdc20, MC, AC, ACMC| kdegBG     | 0.022 min<sup>-1</sup>    | fitted to be ~10x smaller than main degradation           |
 | Activation rate of M                               | kact       | 0.001 min<sup>-1</sup>  | -                                                         |
-| Inactivation rate of M                             | kinact     | 0.05 (mol. x min)<sup>-1</sup> | -                                                         |
-| X (Mps1) synthesis rate                           | ksyn_X    | 4.37 (mol. x min)<sup>-1</sup> | fitted to have total X (Mps1) 40 mol./cell in wild-type cells |
+| Inactivation rate of M                             | kinact     | 0.048 (mol. x min)<sup>-1</sup> | -                                                         |
+| X (Mps1) synthesis rate                           | ksyn_X    | 4.370 (mol. x min)<sup>-1</sup> | fitted to have total X (Mps1) 40 mol./cell in wild-type cells |
 | Cyclin B degradation rate                         | kdeg_cy    | 0.0025 (mol. x min)<sup>-1</sup> | fitted to have the degradation dynamics of Palframan |
-| Cyclin B background degradation rate               | kdegbg_cy  | 0.01 min<sup>-1</sup>   | fitted to be ~10x smaller than main degradation           |
-| Kinetochore attachment rate                   | knUK_att   | 0.01 min<sup>-1</sup>    | fitted to simulate drug washout time interval             |
+| Cyclin B background degradation rate               | kdegbg_cy  | 0.010 min<sup>-1</sup>   | fitted to be ~10x smaller than main degradation           |
+| Kinetochore attachment rate                   | knUK_att   | 0.010 min<sup>-1</sup>    | fitted to simulate drug washout time interval             |
 | Saturation function for nUK signal                             | k_nuk      | 130                       | from Joglekar[[6]](#joglekar)                           |
 | Saturation function for nUK signal                             | J1         | 0.5                      | from Joglekar [[6]](#joglekar)                           |
-| M activation and inactivation: MM constant    | J          | 0.04                     | -                                                         |
+| M activation and inactivation: MM constant    | J          | 0.037                     | -                                                         |
 
 ## References
 
